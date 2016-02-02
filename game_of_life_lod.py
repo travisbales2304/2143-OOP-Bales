@@ -1,3 +1,9 @@
+"""
+Program "Game of Life"
+Name(s):
+Travis Bales
+"""
+
 import time
 import os
 import random
@@ -14,7 +20,7 @@ class golBoard(object):
     Any live cell with more than three live neighbours dies, as if by over-population.
     Any dead cell with exactly three live neighbours becomes a live cell, as if by reproduction.
     """
-    def __init__(self,rows=20,cols=20,populate=False,Density=.25):
+    def __init__(self,rows=21,cols=21,populate=False,Density=.25):
         random.seed()
         self.width = cols
         self.height = rows
@@ -49,8 +55,8 @@ class golBoard(object):
         @returns: None
         """     
         nextGen = self.initGen()
-        for row in range(self.height):
-            for col in range(self.width):
+        for row in range(self.height-1):
+            for col in range(self.width-1):
                 nextGen[row][col] = self.liveOrDie(row,col)
         self.currentGen = nextGen
 
