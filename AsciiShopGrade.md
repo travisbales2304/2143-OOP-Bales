@@ -14,7 +14,7 @@
 | -       | could choose the direction                                 |    10        |    0     | ![Alt text][2] |
 | ***3*** | ***Invert Method***                                        |             |          | ![Alt text][2] |
 | -       | worked                                                     |    30       |    0    | ![Alt text][2] |
-|         | Totals:                                                    | **100**     |  **100** | ![Alt text][2] |
+|         | Totals:                                                    | **100**     |  **0** | ![Alt text][2] |
 | ***E*** | ***Extra Credit***                                         |             |          | ![Alt text][2] |
 | -       | Did one of the extra credit methods                        |    20       |    0     | ![Alt text][2] |
 
